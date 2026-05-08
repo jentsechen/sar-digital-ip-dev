@@ -1,0 +1,36 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 120
+
+# Allman brace style — opening brace on its own line
+BreakBeforeBraces: Allman
+
+# Align access modifiers (public/private) with the class keyword
+AccessModifierOffset: -4
+
+# Keep short functions/lambdas on one line
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortLambdasOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+
+# Pointer/reference alignment
+PointerAlignment: Left
+
+# Constructor initializer lists
+BreakConstructorInitializers: BeforeColon
+ConstructorInitializerIndentWidth: 4
+
+# Include sorting
+SortIncludes: CaseSensitive
+
+# Align trailing // comments in the same block
+AlignTrailingComments: true
+
+# Trailing commas and spaces
+SpaceBeforeParens: ControlStatements
+SpaceAfterCStyleCast: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
