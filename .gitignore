@@ -1,0 +1,15 @@
+# Vivado generated project (build artifact)
+/sar_rx_dsp_verification/
+
+# Vivado runtime/cache
+.Xil/
+
+# Vivado logs and journals
+*.log
+*.jou
+*.str
+*.pb
+
+# Backup files
+*.backup.log
+*.backup.jou
