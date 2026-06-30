@@ -13,3 +13,5 @@
 # Backup files
 *.backup.log
 *.backup.jou
+
+/tmp/
