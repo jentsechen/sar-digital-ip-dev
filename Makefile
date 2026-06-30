@@ -22,10 +22,15 @@ $(PROJ_NAME)/$(PROJ_NAME).xpr: source_file/tcl_command/main_project.tcl
 gui: $(PROJ_NAME)/$(PROJ_NAME).xpr
 	$(VIVADO) $(PROJ_NAME)/$(PROJ_NAME).xpr &
 
+# Run the testbench against BOTH designs and diff the exported outputs.
+.PHONY: compare
+compare:
+	VIVADO_SETTINGS=$(VIVADO_INSTALL_DIR)/settings64.sh bash source_file/run_compare.sh
+
 .PHONY: rm_logs
 rm_logs:
 	rm -rf *.log *.jou *.str
 
 .PHONY: clean
 clean: rm_logs
-	rm -rf $(PROJ_NAME)/ .Xil/
+	rm -rf $(PROJ_NAME)/ .Xil/ sim_run/ results/ xsim.dir/

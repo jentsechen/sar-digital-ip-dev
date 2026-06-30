@@ -3,6 +3,11 @@
 
 # Vivado runtime/cache
 .Xil/
+xsim.dir/
+
+# Simulation comparison outputs (make compare)
+/sim_run/
+/results/
 
 # Vivado logs and journals
 *.log
