@@ -20,3 +20,5 @@ xsim.dir/
 *.backup.jou
 
 /tmp/
+
+*.html
