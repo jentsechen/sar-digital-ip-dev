@@ -1,0 +1,13 @@
+*.gtkw
+*.vcd
+*.out
+*.jou
+*.log
+*.str
+.~*
+.vscode
+vivado
+.Xil*/
+BFPQ*/
+
+./source_file/simulation/output/*

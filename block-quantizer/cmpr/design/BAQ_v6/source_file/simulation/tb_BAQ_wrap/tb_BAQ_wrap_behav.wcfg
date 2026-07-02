@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_BAQ_wrap_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_BAQ_wrap" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="29.967 ns"></ZoomStartTime>
+      <ZoomEndTime time="150.168 ns"></ZoomEndTime>
+      <Cursor1Time time="50.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="249"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker label="" time="86110000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/block_size_mode">
+      <obj_property name="ElementShortName">block_size_mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">block_size_mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/word_length_mode">
+      <obj_property name="ElementShortName">word_length_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">word_length_mode[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/baq_seg_mode">
+      <obj_property name="ElementShortName">baq_seg_mode[0:0]</obj_property>
+      <obj_property name="ObjectShortName">baq_seg_mode[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group121">
+      <obj_property name="label">BRAM INF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group119">
+      <obj_property name="label">In</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/S_AXIS_IN_TVALID">
+         <obj_property name="ElementShortName">S_AXIS_IN_TVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_IN_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/S_AXIS_IN_TREADY">
+         <obj_property name="ElementShortName">S_AXIS_IN_TREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_IN_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/S_AXIS_IN_TDATA">
+         <obj_property name="ElementShortName">S_AXIS_IN_TDATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_IN_TDATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/S_AXIS_IN_TLAST">
+         <obj_property name="ElementShortName">S_AXIS_IN_TLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_IN_TLAST</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider139" type="divider">
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/state_reg">
+      <obj_property name="ElementShortName">state_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/clear">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group151">
+      <obj_property name="label">BAQ In</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/EnableIn">
+         <obj_property name="ElementShortName">EnableIn</obj_property>
+         <obj_property name="ObjectShortName">EnableIn</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/InputI0">
+         <obj_property name="ElementShortName">InputI0[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputI0[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/InputI1">
+         <obj_property name="ElementShortName">InputI1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputI1[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/InputI2">
+         <obj_property name="ElementShortName">InputI2[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputI2[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/InputI3">
+         <obj_property name="ElementShortName">InputI3[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputI3[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/InputQ0">
+         <obj_property name="ElementShortName">InputQ0[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputQ0[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/InputQ1">
+         <obj_property name="ElementShortName">InputQ1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputQ1[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/InputQ2">
+         <obj_property name="ElementShortName">InputQ2[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputQ2[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/InputQ3">
+         <obj_property name="ElementShortName">InputQ3[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputQ3[13:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group152">
+      <obj_property name="label">BAQ Out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/fOutValid">
+         <obj_property name="ElementShortName">fOutValid</obj_property>
+         <obj_property name="ObjectShortName">fOutValid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/FVarianceAddress">
+         <obj_property name="ElementShortName">FVarianceAddress[7:0]</obj_property>
+         <obj_property name="ObjectShortName">FVarianceAddress[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/fOverFlow">
+         <obj_property name="ElementShortName">fOverFlow</obj_property>
+         <obj_property name="ObjectShortName">fOverFlow</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/fBlockEnd">
+         <obj_property name="ElementShortName">fBlockEnd</obj_property>
+         <obj_property name="ObjectShortName">fBlockEnd</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/BAQOutI0">
+         <obj_property name="ElementShortName">BAQOutI0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutI0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/BAQOutI1">
+         <obj_property name="ElementShortName">BAQOutI1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutI1[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/BAQOutI2">
+         <obj_property name="ElementShortName">BAQOutI2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutI2[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/BAQOutI3">
+         <obj_property name="ElementShortName">BAQOutI3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutI3[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/BAQOutQ0">
+         <obj_property name="ElementShortName">BAQOutQ0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutQ0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/BAQOutQ1">
+         <obj_property name="ElementShortName">BAQOutQ1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutQ1[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/BAQOutQ2">
+         <obj_property name="ElementShortName">BAQOutQ2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutQ2[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/BAQOutQ3">
+         <obj_property name="ElementShortName">BAQOutQ3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutQ3[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider139" type="divider">
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus273">
+      <obj_property name="label">Acc_seq_I_3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[75]">
+         <obj_property name="ElementShortName">[75]</obj_property>
+         <obj_property name="ObjectShortName">[75]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[74]">
+         <obj_property name="ElementShortName">[74]</obj_property>
+         <obj_property name="ObjectShortName">[74]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[73]">
+         <obj_property name="ElementShortName">[73]</obj_property>
+         <obj_property name="ObjectShortName">[73]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[72]">
+         <obj_property name="ElementShortName">[72]</obj_property>
+         <obj_property name="ObjectShortName">[72]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[71]">
+         <obj_property name="ElementShortName">[71]</obj_property>
+         <obj_property name="ObjectShortName">[71]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[70]">
+         <obj_property name="ElementShortName">[70]</obj_property>
+         <obj_property name="ObjectShortName">[70]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[69]">
+         <obj_property name="ElementShortName">[69]</obj_property>
+         <obj_property name="ObjectShortName">[69]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[68]">
+         <obj_property name="ElementShortName">[68]</obj_property>
+         <obj_property name="ObjectShortName">[68]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[67]">
+         <obj_property name="ElementShortName">[67]</obj_property>
+         <obj_property name="ObjectShortName">[67]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[66]">
+         <obj_property name="ElementShortName">[66]</obj_property>
+         <obj_property name="ObjectShortName">[66]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[65]">
+         <obj_property name="ElementShortName">[65]</obj_property>
+         <obj_property name="ObjectShortName">[65]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[64]">
+         <obj_property name="ElementShortName">[64]</obj_property>
+         <obj_property name="ObjectShortName">[64]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[63]">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">[63]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[62]">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">[62]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[61]">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">[61]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[60]">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">[60]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[59]">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">[59]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[58]">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">[58]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[57]">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">[57]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus253">
+      <obj_property name="label">Acc_seq_I_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[56]">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">[56]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[55]">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">[55]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[54]">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">[54]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[53]">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">[53]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[52]">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">[52]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[51]">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">[51]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[50]">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">[50]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[49]">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">[49]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[48]">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">[48]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[47]">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">[47]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[46]">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">[46]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[45]">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">[45]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[44]">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">[44]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[43]">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">[43]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[42]">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">[42]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[41]">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">[41]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[40]">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">[40]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[39]">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">[39]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[38]">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">[38]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus233">
+      <obj_property name="label">Acc_seq_I_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[37]">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">[37]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[36]">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">[36]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[35]">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">[35]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[34]">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">[34]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[33]">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">[33]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[32]">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[31]">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[30]">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[29]">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[28]">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[27]">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[26]">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[25]">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[24]">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[23]">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[22]">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[21]">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[20]">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[19]">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus213">
+      <obj_property name="label">Acc_seq_I_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[18]">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[17]">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[16]">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[15]">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[14]">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[13]">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[12]">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[11]">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[10]">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[9]">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[8]">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[6]">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[5]">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_I[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider449" type="divider">
+   </wvobject>
+   <wvobject type="group" fp_name="group450">
+      <obj_property name="label">acc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="vbus" fp_name="vbus429">
+         <obj_property name="label">Acc_seq_Q_3</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[75]">
+            <obj_property name="ElementShortName">[75]</obj_property>
+            <obj_property name="ObjectShortName">[75]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[74]">
+            <obj_property name="ElementShortName">[74]</obj_property>
+            <obj_property name="ObjectShortName">[74]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[73]">
+            <obj_property name="ElementShortName">[73]</obj_property>
+            <obj_property name="ObjectShortName">[73]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[72]">
+            <obj_property name="ElementShortName">[72]</obj_property>
+            <obj_property name="ObjectShortName">[72]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[71]">
+            <obj_property name="ElementShortName">[71]</obj_property>
+            <obj_property name="ObjectShortName">[71]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[70]">
+            <obj_property name="ElementShortName">[70]</obj_property>
+            <obj_property name="ObjectShortName">[70]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[69]">
+            <obj_property name="ElementShortName">[69]</obj_property>
+            <obj_property name="ObjectShortName">[69]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[68]">
+            <obj_property name="ElementShortName">[68]</obj_property>
+            <obj_property name="ObjectShortName">[68]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[67]">
+            <obj_property name="ElementShortName">[67]</obj_property>
+            <obj_property name="ObjectShortName">[67]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[66]">
+            <obj_property name="ElementShortName">[66]</obj_property>
+            <obj_property name="ObjectShortName">[66]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[65]">
+            <obj_property name="ElementShortName">[65]</obj_property>
+            <obj_property name="ObjectShortName">[65]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[64]">
+            <obj_property name="ElementShortName">[64]</obj_property>
+            <obj_property name="ObjectShortName">[64]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[63]">
+            <obj_property name="ElementShortName">[63]</obj_property>
+            <obj_property name="ObjectShortName">[63]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[62]">
+            <obj_property name="ElementShortName">[62]</obj_property>
+            <obj_property name="ObjectShortName">[62]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[61]">
+            <obj_property name="ElementShortName">[61]</obj_property>
+            <obj_property name="ObjectShortName">[61]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[60]">
+            <obj_property name="ElementShortName">[60]</obj_property>
+            <obj_property name="ObjectShortName">[60]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[59]">
+            <obj_property name="ElementShortName">[59]</obj_property>
+            <obj_property name="ObjectShortName">[59]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[58]">
+            <obj_property name="ElementShortName">[58]</obj_property>
+            <obj_property name="ObjectShortName">[58]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[57]">
+            <obj_property name="ElementShortName">[57]</obj_property>
+            <obj_property name="ObjectShortName">[57]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="vbus" fp_name="vbus409">
+         <obj_property name="label">Acc_seq_Q_2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[56]">
+            <obj_property name="ElementShortName">[56]</obj_property>
+            <obj_property name="ObjectShortName">[56]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[55]">
+            <obj_property name="ElementShortName">[55]</obj_property>
+            <obj_property name="ObjectShortName">[55]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[54]">
+            <obj_property name="ElementShortName">[54]</obj_property>
+            <obj_property name="ObjectShortName">[54]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[53]">
+            <obj_property name="ElementShortName">[53]</obj_property>
+            <obj_property name="ObjectShortName">[53]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[52]">
+            <obj_property name="ElementShortName">[52]</obj_property>
+            <obj_property name="ObjectShortName">[52]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[51]">
+            <obj_property name="ElementShortName">[51]</obj_property>
+            <obj_property name="ObjectShortName">[51]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[50]">
+            <obj_property name="ElementShortName">[50]</obj_property>
+            <obj_property name="ObjectShortName">[50]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[49]">
+            <obj_property name="ElementShortName">[49]</obj_property>
+            <obj_property name="ObjectShortName">[49]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[48]">
+            <obj_property name="ElementShortName">[48]</obj_property>
+            <obj_property name="ObjectShortName">[48]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[47]">
+            <obj_property name="ElementShortName">[47]</obj_property>
+            <obj_property name="ObjectShortName">[47]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[46]">
+            <obj_property name="ElementShortName">[46]</obj_property>
+            <obj_property name="ObjectShortName">[46]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[45]">
+            <obj_property name="ElementShortName">[45]</obj_property>
+            <obj_property name="ObjectShortName">[45]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[44]">
+            <obj_property name="ElementShortName">[44]</obj_property>
+            <obj_property name="ObjectShortName">[44]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[43]">
+            <obj_property name="ElementShortName">[43]</obj_property>
+            <obj_property name="ObjectShortName">[43]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[42]">
+            <obj_property name="ElementShortName">[42]</obj_property>
+            <obj_property name="ObjectShortName">[42]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[41]">
+            <obj_property name="ElementShortName">[41]</obj_property>
+            <obj_property name="ObjectShortName">[41]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[40]">
+            <obj_property name="ElementShortName">[40]</obj_property>
+            <obj_property name="ObjectShortName">[40]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[39]">
+            <obj_property name="ElementShortName">[39]</obj_property>
+            <obj_property name="ObjectShortName">[39]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[38]">
+            <obj_property name="ElementShortName">[38]</obj_property>
+            <obj_property name="ObjectShortName">[38]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="vbus" fp_name="vbus389">
+         <obj_property name="label">Acc_seq_Q_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[37]">
+            <obj_property name="ElementShortName">[37]</obj_property>
+            <obj_property name="ObjectShortName">[37]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[36]">
+            <obj_property name="ElementShortName">[36]</obj_property>
+            <obj_property name="ObjectShortName">[36]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[35]">
+            <obj_property name="ElementShortName">[35]</obj_property>
+            <obj_property name="ObjectShortName">[35]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[34]">
+            <obj_property name="ElementShortName">[34]</obj_property>
+            <obj_property name="ObjectShortName">[34]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[33]">
+            <obj_property name="ElementShortName">[33]</obj_property>
+            <obj_property name="ObjectShortName">[33]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[32]">
+            <obj_property name="ElementShortName">[32]</obj_property>
+            <obj_property name="ObjectShortName">[32]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[31]">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">[31]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[30]">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[29]">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[28]">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[27]">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[26]">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[25]">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[24]">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[23]">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[22]">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[21]">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[20]">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[19]">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="vbus" fp_name="vbus369">
+         <obj_property name="label">Acc_seq_Q_0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[18]">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[17]">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[16]">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[15]">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[14]">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[13]">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[12]">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[11]">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[10]">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[9]">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[8]">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[7]">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[6]">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[5]">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[4]">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[3]">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[2]">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[1]">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/Acc_seq_Q[0]">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/ACCOut">
+         <obj_property name="ElementShortName">ACCOut[28:0]</obj_property>
+         <obj_property name="ObjectShortName">ACCOut[28:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/DB0/DataInI_set">
+      <obj_property name="ElementShortName">DataInI_set[0:3][13:0]</obj_property>
+      <obj_property name="ObjectShortName">DataInI_set[0:3][13:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/DB0/RE">
+      <obj_property name="ElementShortName">RE</obj_property>
+      <obj_property name="ObjectShortName">RE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/DB0/DataOutI_set">
+      <obj_property name="ElementShortName">DataOutI_set[0:3][13:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOutI_set[0:3][13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/RAMOutI_seq">
+      <obj_property name="ElementShortName">RAMOutI_seq[55:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMOutI_seq[55:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/RAMOutI_set">
+      <obj_property name="ElementShortName">RAMOutI_set[0:3][13:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMOutI_set[0:3][13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_wrap/u_BAQ_wrap/u_BAQ_4way/ScalingValueD1">
+      <obj_property name="ElementShortName">ScalingValueD1[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ScalingValueD1[16:0]</obj_property>
+   </wvobject>
+</wave_config>

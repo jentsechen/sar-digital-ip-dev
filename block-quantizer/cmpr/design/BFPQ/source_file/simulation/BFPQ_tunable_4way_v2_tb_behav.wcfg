@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="BFPQ_tunable_4way_v2_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="BFPQ_tunable_4way_v2_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,328.001 ns"></ZoomEndTime>
+      <Cursor1Time time="490.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/clear">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/ClockBFPQ">
+      <obj_property name="ElementShortName">ClockBFPQ</obj_property>
+      <obj_property name="ObjectShortName">ClockBFPQ</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/EnableIn">
+      <obj_property name="ElementShortName">EnableIn</obj_property>
+      <obj_property name="ObjectShortName">EnableIn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/S2POUTI1">
+      <obj_property name="ElementShortName">S2POUTI1[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S2POUTI1[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/S2POUTI2">
+      <obj_property name="ElementShortName">S2POUTI2[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S2POUTI2[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/S2POUTI3">
+      <obj_property name="ElementShortName">S2POUTI3[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S2POUTI3[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/S2POUTI4">
+      <obj_property name="ElementShortName">S2POUTI4[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S2POUTI4[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/S2POUTQ1">
+      <obj_property name="ElementShortName">S2POUTQ1[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S2POUTQ1[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/S2POUTQ2">
+      <obj_property name="ElementShortName">S2POUTQ2[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S2POUTQ2[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/S2POUTQ3">
+      <obj_property name="ElementShortName">S2POUTQ3[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S2POUTQ3[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/S2POUTQ4">
+      <obj_property name="ElementShortName">S2POUTQ4[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S2POUTQ4[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/Ce">
+      <obj_property name="ElementShortName">Ce[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Ce[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/Cw">
+      <obj_property name="ElementShortName">Cw[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Cw[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/fOutValid">
+      <obj_property name="ElementShortName">fOutValid</obj_property>
+      <obj_property name="ObjectShortName">fOutValid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/uut/DataMulScalingI1_DFF">
+      <obj_property name="ElementShortName">DataMulScalingI1_DFF[17:0]</obj_property>
+      <obj_property name="ObjectShortName">DataMulScalingI1_DFF[17:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/uut/Iout1">
+      <obj_property name="ElementShortName">Iout1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Iout1[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/uut/Iout2">
+      <obj_property name="ElementShortName">Iout2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Iout2[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/uut/Iout3">
+      <obj_property name="ElementShortName">Iout3[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Iout3[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/uut/Iout4">
+      <obj_property name="ElementShortName">Iout4[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Iout4[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/MantissaI1">
+      <obj_property name="ElementShortName">MantissaI1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaI1[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/MantissaI2">
+      <obj_property name="ElementShortName">MantissaI2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaI2[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/MantissaI3">
+      <obj_property name="ElementShortName">MantissaI3[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaI3[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/MantissaI4">
+      <obj_property name="ElementShortName">MantissaI4[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaI4[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/MantissaQ1">
+      <obj_property name="ElementShortName">MantissaQ1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaQ1[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/MantissaQ2">
+      <obj_property name="ElementShortName">MantissaQ2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaQ2[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/MantissaQ3">
+      <obj_property name="ElementShortName">MantissaQ3[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaQ3[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/BFPQ_tunable_4way_v2_tb/MantissaQ4">
+      <obj_property name="ElementShortName">MantissaQ4[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MantissaQ4[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/SignI1">
+      <obj_property name="ElementShortName">SignI1</obj_property>
+      <obj_property name="ObjectShortName">SignI1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/SignI2">
+      <obj_property name="ElementShortName">SignI2</obj_property>
+      <obj_property name="ObjectShortName">SignI2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/SignI3">
+      <obj_property name="ElementShortName">SignI3</obj_property>
+      <obj_property name="ObjectShortName">SignI3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/SignI4">
+      <obj_property name="ElementShortName">SignI4</obj_property>
+      <obj_property name="ObjectShortName">SignI4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/SignQ1">
+      <obj_property name="ElementShortName">SignQ1</obj_property>
+      <obj_property name="ObjectShortName">SignQ1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/SignQ2">
+      <obj_property name="ElementShortName">SignQ2</obj_property>
+      <obj_property name="ObjectShortName">SignQ2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/SignQ3">
+      <obj_property name="ElementShortName">SignQ3</obj_property>
+      <obj_property name="ObjectShortName">SignQ3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/BFPQ_tunable_4way_v2_tb/SignQ4">
+      <obj_property name="ElementShortName">SignQ4</obj_property>
+      <obj_property name="ObjectShortName">SignQ4</obj_property>
+   </wvobject>
+</wave_config>

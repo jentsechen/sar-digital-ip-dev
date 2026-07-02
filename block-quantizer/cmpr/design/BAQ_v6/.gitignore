@@ -1,0 +1,14 @@
+*.gtkw
+*.vcd
+*.out
+*.jou
+*.log
+*.str
+.~*
+.vscode
+vivado
+
+BAQ_v6*/
+
+source_file/simulation/tb_BAQ_4way/*output*/*
+source_file/simulation/tb_BAQ_wrap/*output*/*

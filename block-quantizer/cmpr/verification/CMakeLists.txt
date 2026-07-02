@@ -1,0 +1,6 @@
+project("CompDecomp")
+cmake_minimum_required(VERSION 3.22)
+add_executable(data_comp)
+target_sources(data_comp PRIVATE "data_comp.cpp")
+add_executable(data_decomp)
+target_sources(data_decomp PRIVATE "data_decomp.cpp")

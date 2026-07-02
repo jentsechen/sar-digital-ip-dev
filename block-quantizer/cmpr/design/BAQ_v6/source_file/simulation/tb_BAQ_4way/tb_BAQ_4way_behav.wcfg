@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_BAQ_4way_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_BAQ_4way" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="64,530.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="71,005.001 ns"></ZoomEndTime>
+      <Cursor1Time time="69,190.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="249"></NameColumnWidth>
+      <ValueColumnWidth column_width="95"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_4way/uut/NMOD">
+      <obj_property name="ElementShortName">NMOD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">NMOD[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_4way/uut/BSMOD">
+      <obj_property name="ElementShortName">BSMOD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BSMOD[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_BAQ_4way/uut/SEGMOD">
+      <obj_property name="ElementShortName">SEGMOD[0:0]</obj_property>
+      <obj_property name="ObjectShortName">SEGMOD[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group131">
+      <obj_property name="label">BRAM Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/sp_en">
+         <obj_property name="ElementShortName">sp_en</obj_property>
+         <obj_property name="ObjectShortName">sp_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/sp_wen">
+         <obj_property name="ElementShortName">sp_wen</obj_property>
+         <obj_property name="ObjectShortName">sp_wen</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/sp_addr">
+         <obj_property name="ElementShortName">sp_addr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">sp_addr[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/sp_wdata">
+         <obj_property name="ElementShortName">sp_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sp_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/sp_rdata">
+         <obj_property name="ElementShortName">sp_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sp_rdata[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group109">
+      <obj_property name="label">Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/EnableIn">
+         <obj_property name="ElementShortName">EnableIn</obj_property>
+         <obj_property name="ObjectShortName">EnableIn</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/InputI0">
+         <obj_property name="ElementShortName">InputI0[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputI0[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/InputI1">
+         <obj_property name="ElementShortName">InputI1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputI1[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/InputI2">
+         <obj_property name="ElementShortName">InputI2[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputI2[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/InputI3">
+         <obj_property name="ElementShortName">InputI3[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputI3[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/InputQ0">
+         <obj_property name="ElementShortName">InputQ0[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputQ0[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/InputQ1">
+         <obj_property name="ElementShortName">InputQ1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputQ1[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/InputQ2">
+         <obj_property name="ElementShortName">InputQ2[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputQ2[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/InputQ3">
+         <obj_property name="ElementShortName">InputQ3[13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputQ3[13:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group110">
+      <obj_property name="label">Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/fOutValid">
+         <obj_property name="ElementShortName">fOutValid</obj_property>
+         <obj_property name="ObjectShortName">fOutValid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/fOverFlow">
+         <obj_property name="ElementShortName">fOverFlow</obj_property>
+         <obj_property name="ObjectShortName">fOverFlow</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/FVarianceAddress">
+         <obj_property name="ElementShortName">FVarianceAddress[7:0]</obj_property>
+         <obj_property name="ObjectShortName">FVarianceAddress[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/BAQOutI0">
+         <obj_property name="ElementShortName">BAQOutI0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutI0[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/BAQOutQ0">
+         <obj_property name="ElementShortName">BAQOutQ0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutQ0[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/BAQOutI1">
+         <obj_property name="ElementShortName">BAQOutI1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutI1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/BAQOutQ1">
+         <obj_property name="ElementShortName">BAQOutQ1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutQ1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/BAQOutI2">
+         <obj_property name="ElementShortName">BAQOutI2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutI2[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/BAQOutQ2">
+         <obj_property name="ElementShortName">BAQOutQ2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutQ2[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/BAQOutI3">
+         <obj_property name="ElementShortName">BAQOutI3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutI3[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/BAQOutQ3">
+         <obj_property name="ElementShortName">BAQOutQ3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BAQOutQ3[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/fBlockEnd">
+         <obj_property name="ElementShortName">fBlockEnd</obj_property>
+         <obj_property name="ObjectShortName">fBlockEnd</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider113" type="divider">
+         <obj_property name="label">back path</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/InputID2_set">
+         <obj_property name="ElementShortName">InputID2_set[0:3][13:0]</obj_property>
+         <obj_property name="ObjectShortName">InputID2_set[0:3][13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/SQUOutI_set">
+         <obj_property name="ElementShortName">SQUOutI_set[0:3][18:0]</obj_property>
+         <obj_property name="ObjectShortName">SQUOutI_set[0:3][18:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/Acc_seq_I">
+         <obj_property name="ElementShortName">Acc_seq_I[75:0]</obj_property>
+         <obj_property name="ObjectShortName">Acc_seq_I[75:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/ACCOut">
+         <obj_property name="ElementShortName">ACCOut[28:0]</obj_property>
+         <obj_property name="ObjectShortName">ACCOut[28:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/ACCOutD1">
+         <obj_property name="ElementShortName">ACCOutD1[28:0]</obj_property>
+         <obj_property name="ObjectShortName">ACCOutD1[28:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/ShifterOut">
+         <obj_property name="ElementShortName">ShifterOut[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ShifterOut[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/st_bram_addr">
+         <obj_property name="ElementShortName">st_bram_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">st_bram_addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/st_bram_dout">
+         <obj_property name="ElementShortName">st_bram_dout[16:0]</obj_property>
+         <obj_property name="ObjectShortName">st_bram_dout[16:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/ScalingValueD1">
+         <obj_property name="ElementShortName">ScalingValueD1[16:0]</obj_property>
+         <obj_property name="ObjectShortName">ScalingValueD1[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider113" type="divider">
+         <obj_property name="label">db path</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/RAMOutID3_set">
+         <obj_property name="ElementShortName">RAMOutID3_set[0:3][13:0]</obj_property>
+         <obj_property name="ObjectShortName">RAMOutID3_set[0:3][13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider113" type="divider">
+         <obj_property name="label">scaling path</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_BAQ_4way/uut/Enable">
+         <obj_property name="ElementShortName">Enable</obj_property>
+         <obj_property name="ObjectShortName">Enable</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutID1_set">
+         <obj_property name="ElementShortName">MultiOutID1_set[0:3][13:0]</obj_property>
+         <obj_property name="ObjectShortName">MultiOutID1_set[0:3][13:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutID1_set[0]">
+            <obj_property name="ElementShortName">[0][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutID1_set[1]">
+            <obj_property name="ElementShortName">[1][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutID1_set[2]">
+            <obj_property name="ElementShortName">[2][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutID1_set[3]">
+            <obj_property name="ElementShortName">[3][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutQD1_set">
+         <obj_property name="ElementShortName">MultiOutQD1_set[0:3][13:0]</obj_property>
+         <obj_property name="ObjectShortName">MultiOutQD1_set[0:3][13:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutQD1_set[0]">
+            <obj_property name="ElementShortName">[0][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutQD1_set[1]">
+            <obj_property name="ElementShortName">[1][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutQD1_set[2]">
+            <obj_property name="ElementShortName">[2][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/MultiOutQD1_set[3]">
+            <obj_property name="ElementShortName">[3][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/ComMultiOutI_set">
+         <obj_property name="ElementShortName">ComMultiOutI_set[0:3][13:0]</obj_property>
+         <obj_property name="ObjectShortName">ComMultiOutI_set[0:3][13:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/ComMultiOutI_set[0]">
+            <obj_property name="ElementShortName">[0][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/ComMultiOutI_set[1]">
+            <obj_property name="ElementShortName">[1][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/ComMultiOutI_set[2]">
+            <obj_property name="ElementShortName">[2][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/ComMultiOutI_set[3]">
+            <obj_property name="ElementShortName">[3][13:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][13:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_BAQ_4way/uut/pre_BAQOutI_set">
+         <obj_property name="ElementShortName">pre_BAQOutI_set[0:3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_BAQOutI_set[0:3][7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/pre_BAQOutI_set[0]">
+            <obj_property name="ElementShortName">[0][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/pre_BAQOutI_set[1]">
+            <obj_property name="ElementShortName">[1][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/pre_BAQOutI_set[2]">
+            <obj_property name="ElementShortName">[2][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_BAQ_4way/uut/pre_BAQOutI_set[3]">
+            <obj_property name="ElementShortName">[3][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
