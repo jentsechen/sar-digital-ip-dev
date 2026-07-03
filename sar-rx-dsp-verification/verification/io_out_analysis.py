@@ -22,17 +22,17 @@ def to_signed16(bits):
 
 def parse_row(binary_str):
     """
-    128-bit MSB-first binary string, layout (per OutputBuf cat(re,im), {v3..v0}):
-      I[3] Q[3] I[2] Q[2] I[1] Q[1] I[0] Q[0]  (each 16 bits; I=re is the high half)
+    128-bit MSB-first binary string, layout:
+      Q[3] I[3] Q[2] I[2] Q[1] I[1] Q[0] I[0]  (each 16 bits; Q is the high half)
 
     Returns [I[0]+jQ[0], I[1]+jQ[1], I[2]+jQ[2], I[3]+jQ[3]].
     """
     result = []
     for ch in range(N_CH):
-        i_start = (3 - ch) * 2 * N_BITS      # high 16 bits of the lane = re = I
-        q_start = i_start + N_BITS           # low 16 bits of the lane = im = Q
-        i = to_signed16(binary_str[i_start : i_start + N_BITS])
+        q_start = (3 - ch) * 2 * N_BITS      # high 16 bits of the lane = Q
+        i_start = q_start + N_BITS           # low 16 bits of the lane = I
         q = to_signed16(binary_str[q_start : q_start + N_BITS])
+        i = to_signed16(binary_str[i_start : i_start + N_BITS])
         result.append(complex(i, q))
     return result
 

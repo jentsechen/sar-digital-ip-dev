@@ -253,6 +253,13 @@ always@(posedge clock) if(io_out_valid) $fwrite(h_data_0_fid, "%b\n", io_out_h_d
 integer h_rcf_out_data_0_fid;
 initial h_rcf_out_data_0_fid = $fopen("io_out_h_rcf_out_data_0_bin.txt", "w");
 always@(posedge clock) if(io_out_h_rcf_out_valid) $fwrite(h_rcf_out_data_0_fid, "%b\n", io_out_h_rcf_out_data_0);
+
+// ---- Export freq_resp_gen out AXIS datapack_data (binary) on valid && ready handshake ----
+integer freq_resp_gen_fid;
+initial freq_resp_gen_fid = $fopen("freq_resp_gen_out_axis_data.txt", "w");
+always@(posedge clock)
+    if(dut.h_dsp_core.freq_resp_gen_io_out_axis_valid && dut.h_dsp_core.freq_resp_gen_io_out_axis_ready)
+        $fwrite(freq_resp_gen_fid, "%b\n", dut.h_dsp_core.freq_resp_gen_io_out_axis_datapack_data);
 task check_total_output_len;
     if(total_out_data_count != total_out_len) $display("[Test bench]check total output data length: PASSED");
     else $display("[Test bench] check total output data length: FAILED");
@@ -307,6 +314,7 @@ initial begin : main
     #20;
     $fclose(h_data_0_fid);
     $fclose(h_rcf_out_data_0_fid);
+    $fclose(freq_resp_gen_fid);
     $display("[Test bench] Finish simulation");
     $finish;
 end
